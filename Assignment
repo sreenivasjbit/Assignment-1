@@ -1,0 +1,63 @@
+1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+*
+'hello'
+-87.8
+-
+/
++
+6
+
+Ans: values are 'hello', -87.8, 6
+     expression are *, -, /, +
+
+2. What is the difference between string and variable?
+
+Ans: A string is an array of elements which are given by single or double quotes and it represents the value of the text
+     A variable is a name that can refer to any value.
+
+
+3. Describe three different data types.
+
+Ans: String
+     List
+     Tuple.
+
+4. What is an expression made up of? What do all expressions do?
+
+Ans: An expression is a combination of operators and operands and these expressions are applied to the operands
+     to produce the value.
+
+5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+
+Ans: A statement is simple line of text there no operators or operands but in the expression there are
+     two values called operand and a operator as their expression for getting the value.
+
+6. After running the following code, what does the variable bacon contain?
+bacon = 22
+bacon + 1
+
+Ans: 23
+
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+
+Ans: spamspamspam
+     spamspamspam
+
+8. Why is eggs a valid variable name while 100 is invalid?
+
+Ans: variable cannot start with  an integer.
+
+
+9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+
+Ans: int()
+     float()
+     str()
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+
+Ans: We can only concatenate string but not "int" to string
+     The correct way is 'I have eaten' + str(99) + 'burritos.'
